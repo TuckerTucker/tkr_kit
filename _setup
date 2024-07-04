@@ -1,0 +1,4 @@
+#!/bin/bash
+source start_env
+
+pip install -r tkr_utils/requirements.txt
