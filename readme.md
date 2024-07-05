@@ -19,3 +19,19 @@ git submodule update --init --recursive
 Add a .env file with an openai api key
 
 OPENAI_API_KEY="sk-proj-yK ... xx23"
+
+# Setup
+
+Initialize the submodules and install requirements
+
+``` sh
+./_setup
+```
+
+# Start the ENV
+
+Start the project env
+
+``` sh
+source start_env
+```
